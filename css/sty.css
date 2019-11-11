@@ -1,0 +1,174 @@
+.container{
+  height: 700px;
+  width: 100%;
+  background-color: darkgoldenrod;
+  background-image: url(../image/im6.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* background-size: 100%; */
+}
+
+/* ::backdrop{
+  image:url(../image/im1.jpeg) }*/
+
+body{
+  background-image: url(../image/im1.jpeg);
+}
+h1:hover{
+  color: black;
+  background-color: chartreuse;
+  width: 100%;
+
+}
+/*navbar container*/
+#navbar{
+  width: 290px;
+  content: 300px;
+  overflow: hidden;
+  background-color: blue;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:30px ;
+}
+/* inside navbar links */
+.navbar a{
+  float: left;
+  font-size: 15px;
+  color: aqua;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration:none;
+}
+
+/* dropdown container */
+.dropdown{
+  float: left;
+  overflow: hidden;
+}
+
+
+/* dropdown button */
+.dropbtn{
+  font-size:20px;;
+  border:;
+  outline:none;
+  color: rgb(153, 13, 13);
+  background-color:chartreuse;
+  padding: ;
+  background-color: inherit;
+  font-family: inherit;
+  margin: o;
+}
+
+
+/* hover on links in navbar */
+.navbar a:hover, .dropdown:hover .dropbtn{
+  background-color: orangered;
+  color: yellow;
+}
+
+/* dropdown content */
+.dropdown-content{
+  display:none;
+  position: absolute;
+  background-color: pink;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* link inside  dropdown */
+.dropdown-content a {
+  float: none;
+  color:;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a orange-red background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color:orangered;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#pz{
+  text-align: center;}
+#bdy{
+  text-align: center;
+  color: brown;}
+
+
+  /*  button trial */
+  /* kkkkkkkkkkkkkkkk */
+
+  .dropdd{
+    float: right;
+    overflow: hidden;
+  }
+  
+  .dropbt{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbt:hover, .dropbt:focus {
+    background-color: #3e8e41;
+    color:brown;
+  }
+  
+  /* .dropdd{
+    position: relative;
+    display: inline-block;
+  } */
+  
+  .dropddd-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .row{
+    font-size: 30px;
+    color: deeppink;
+    background-color:transparent;
+  }
+/* 
+  .row:hover{
+    opacity:;
+  } */
+
+  col-sm-12 col-md-6 col-lg-4:hover{
+    scale: 1-2;
+  }
+
+
+  .dropddd-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display:block;
+  }
+   
+  .dropdd:hover .dropddd-content{
+    display: block;
+  }
+
+  .box{
+    width: 50%;
+    float: right;
+    border:3px white;
+    margin: white 30px;
+  }
+     
+  /* .show {display:block;} */

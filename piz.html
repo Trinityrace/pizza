@@ -72,8 +72,10 @@ The javascript code uses the correct syntax of camel case naming of variables.
   <title>Pizza Hut</title>
 
   <!--bootsrap link-->
-  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/sty.css" rel="stylesheet" type="text/css">
+
+  <link href="js/js.js" rel="stylesheet" type="text/css">
 
   <script src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
@@ -81,6 +83,124 @@ The javascript code uses the correct syntax of camel case naming of variables.
   <script src="js/js.js"></script>
 </head>
 <body>
-  
+
+  <!--HOME hover button -->
+  <div class="container">
+    <div id="pz" ><h1>PIZZA PiE</h1></div>
+    <div id="navbar" class="navbar">
+      <div class="dropdown">
+          <!-- <i class="fa fa-caret-down"></i> -->
+          <button id="dropbtn1" class="dropbtn">HOME </button>
+          <div class="dropdown-content">
+            <a href="#">Large</a>
+            <a href="#">Medium</a>
+            <a href="#">Small</a>
+          </div>
+        </div>
+
+   <!-- NEWS hover button -->
+        <div class="dropdown">
+            <!-- <i class="fa fa-caret-down"></i> -->
+            <button id="dropbtn2" class="dropbtn">OFFERS!</button>
+            <div class="dropdown-content">
+              <div><img src="../pizza/image/im7.jpeg" width="120px" height="200px">
+              <!-- <a href="#">Thin.</a>
+              <a href="#">Thick!.</a>
+              <a href="#">Flatbread.</a>
+              <a href="#">Custom.</a> -->
+            </div>
+            </div>
+          </div>
+   <!-- clickable TOPPINGS hover button -->
+        <div class="dropdown">
+            <!-- <i class="fa fa-caret-down"></i> -->
+            <button id="dropbtn3" class="dropbtn">ABOUT US </button>
+            <div class="dropdown-content">
+              <a href="#">Chicken.</a>
+              <a href="#">Goatcheeese.</a>
+              <a href="#">Mushroom.</a>
+              <a href="#">.</a>
+            </div>
+          </div>
+          <div class="dropdown">
+              <!-- <i class="fa fa-caret-down"></i> -->
+              <button id="dropbtn4" class="dropbtn">CONTACT US </button>
+              <div class="dropdown-content">
+                <a href="#">email</a>
+                <a href="#">review</a>
+                <a href="#">call us</a>
+              </div>
+            </div>
+    </div>
+
+    <div class="body" id="bdy">
+      <h1>ORDER NOW!</h1>
+      <div id="pz" text="align-center">
+        <h1>PIZZA PIE</h1>
+      </div>
+
+
+      <div class ="row">
+        <div class="col-sm-12 col-md-6 col-lg-4"> 
+          SMALL <br>
+          <img src="image/im7.jpeg" alt="Smiley face"
+           width="200" height="100">
+
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            MEDIUM<br> 
+            <img src="image/im2.jpeg" alt="Smiley face" 
+            width="200" height="200">
+          
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+        LARGE <br>
+        <img src="image/im4.jpeg" alt="Smiley face" 
+        width="200" height="300">
+        </div>
+      </div>
+    </div>
+    <div>
+
+        <div id="grp btn" class="dropdown">
+          <!-- <div class="btn-group-vertical"> -->
+            <!-- <i class="fa fa-caret-down"></i> -->
+            <button id="dropbtn4" class="dropdown">PIece </button>
+            <div class="dropdown-content">
+              <div class="btn-group-vertical">
+              <button type="#" class="btn btn-primary">Large</button>
+              <button type="#" class="btn btn-primary">Medium</button>
+              <button type="#" class="btn btn-primary">Small</button>
+            </div>
+          </div>
+        </div>
+        <br>
+      <div class="box">
+        <div class="dropdd">
+          <!-- <i class="fa fa-caret-down"></i> -->
+          <button id="dropbt1" class="dropbt">Add CRUST </button>
+          <div id="dropddd1"  class="dropddd-content">
+            <a href="#">Thin.</a>
+            <a href="#">Thick!.</a>
+            <a href="#">Flatbread.</a>
+            <a href="#">Custom.</a>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="dropdd">
+            <!-- <i class="fa fa-caret-down"></i> -->
+            <button id="dropbt2" class="dropbt">Add TOPPINGS </button>
+            <div id="dropddd2"  class="dropddd-content">
+              <a href="#">Thin.</a>
+              <a href="#">Thick!.</a>
+              <a href="#">Flatbread.</a>
+              <a href="#">Custom.</a>
+            </div>
+          </div>
+  </div>
+  </div>
+  </div>
 </body>
 </html>
